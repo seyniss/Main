@@ -1,0 +1,25 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "공통 작업용",
+  "homepage": "https://github.com/HUB-Hotel/Main#readme",
+  "bugs": {
+    "url": "https://github.com/HUB-Hotel/Main/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HUB-Hotel/Main.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3"
+  }
+}
