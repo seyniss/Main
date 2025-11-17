@@ -10,6 +10,8 @@ mongoose.connect(
   {}
 );
 
+//git test를 위한 주석 추가
+
 // 연결 상태 확인
 mongoose.connection.on("connected", () => {
   console.log("MongoDB 연결 성공!");
